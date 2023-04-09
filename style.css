@@ -1,0 +1,275 @@
+body {
+    background: #05123f;
+    color: white;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins';
+}
+
+.green-color {
+    color: #14FF00;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+nav,
+.nav-ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+
+}
+
+.nav-ul>li {
+    padding: 0px 23px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 1%;
+}
+
+.menu {
+    margin: 0% 17%;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+.search-bar {
+    margin: 1% 3%;
+}
+
+.search-bar>button {
+    background-color: #05123f;
+    color: white;
+    border: none;
+}
+
+/* Price Section */
+
+.price-section>div {
+    margin-top: 5.84%
+}
+
+.heading {
+    margin-left: 5.5%;
+}
+
+.price-table {
+    text-align: center;
+    /* align-items: center; */
+
+}
+
+.price-table>tbody>tr>td {
+    padding: 18px 82px;
+    font-size: 20px;
+    margin-right: 0px;
+    justify-content: left;
+}
+
+
+.submit-btn {
+    background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+/* Map Section */
+.map {
+    margin-top: 5%;
+}
+
+#map_inner {
+    left: 31px;
+}
+
+.map-platform {
+    padding: 3px 13px 0px;
+    margin: 23px 105px;
+}
+
+.map-platform>h1 {
+    font-size: 36px;
+}
+
+.invmap-platformest>h3 {
+    font-size: 20px;
+}
+
+.map-platform>p {
+    font-size: 16px;
+}
+
+/* Investment Section */
+.investment {
+    height: 32rem;
+}
+
+.invest h3:before {
+    content: ' ✓ ';
+    color: #00092A;
+    background-color: white;
+    border-radius: 59%;
+}
+
+
+.invest {
+    padding: 3px 13px 0px;
+    margin: 23px 105px;
+}
+
+.invest>h1 {
+    font-size: 36px;
+}
+
+.invest>h3 {
+    font-size: 20px;
+}
+
+.invest>p {
+    font-size: 16px;
+}
+
+.box {
+    margin-top: 36px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: linear-gradient(180.04deg, rgba(4, 19, 52, 0.78) -3.16%, rgba(15, 37, 84, 0.62) 99.42%);
+    border: 2px solid #142346;
+    backdrop-filter: blur(1px);
+    height: 351px;
+    width: 297px;
+}
+
+.box>table>tbody>tr>td {
+    padding: 5px 22px;
+}
+
+.box>table {
+    height: 268px;
+    width: 290px;
+}
+
+.box>h2 {
+    font-size: 21px;
+    padding: 4px 27px;
+}
+
+span {
+    color: #14FF00;
+    background-color: #fff 0.1;
+}
+
+.map {
+    background-color: #00092A;
+}
+
+.about {
+    background-color: #00092A;
+}
+
+.about-div {
+    padding: 12rem;
+    margin: 21rem;
+}
+
+.about-first {
+    padding: 0px 12px;
+    margin: 30px 3px;
+}
+
+.about-first>div {
+    padding: 17px 53px;
+}
+
+.about-heading>ul>h3 {
+    font-size: 24px;
+
+}
+
+.about-heading>ul>li {
+    padding: 12px 1px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: -1%;
+}
+
+.site-footer {
+    background-color: #00092A;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+
+    nav,
+    .map,
+    .price-table>tbody>tr,
+    .about,
+    .about-first,
+    .investment {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin: 0% -9%;
+    }
+    .nav-ul>li{        
+        padding: 0px 6px    
+    }
+
+    #map_inner {
+        height: auto;
+        width: 455px;
+    }
+
+    #map_inner>svg {
+        height: 240px;
+    margin: 8px 11px;
+    }
+    .invest{
+        padding: 0px 1px;
+        margin: 0px 25px;
+    }
+    .investment {
+        margin-bottom: 26rem;
+    }
+
+    .map-platform {
+        padding: 0px 1px;
+        margin: 0px 25px;
+    }
+
+    .map {
+        margin: 0px 0px;
+    }
+
+}
+
